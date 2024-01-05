@@ -1,0 +1,99 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 110%;
+  }
+  
+  /* Thiết lập vị trí trung tâm cho nội dung */
+  #root {
+    text-align: center;
+  }
+  
+  /* Style cho tiêu đề máy tính */
+  .calculator-title {
+    font-size: 30px;
+    background: radial-gradient(#5a68ff, #ff495a);
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 2px;
+    border: 2px solid;
+    color: #00ff1a;
+  }
+  
+  /* Style cho nội dung chính của máy tính */
+  .mainCalc {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style cho phần hiển thị màn hình */
+  .screen-row input {
+    width: 300px;
+    background: #222222;
+    border: 0;
+    color: #ffffff;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  /* Style cho các nút bấm */
+  input[type="button"] {
+    width: 100px;
+    background: #ffffff;
+    border: 1px solid #222;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  /* Style khi nút bấm được nhấn */
+  input[type="button"]:active {
+    background: #ccc;
+  }
+  
+  /* Style cho các nút action */
+  .btnaction {
+    background-color: #ffcc0e !important;
+  }
+  .frame {
+    /* ... Các thuộc tính khác */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mainCalc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin: 3px 0; /* Điều chỉnh khoảng cách giữa các hàng */
+  }
+  
+
+  
+
+    
