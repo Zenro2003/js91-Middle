@@ -37,9 +37,6 @@ class Calculator extends React.Component {
     }
   };
   
-
- 
-
   render() {
     return (
       <div className="frame">
@@ -91,7 +88,7 @@ class Calculator extends React.Component {
             <input
               type="button"
               className="btnaction"
-              value="+"
+              value="+" 
               onClick={() => this.handleButtonClick('+')}
             />
           </div>
@@ -157,12 +154,12 @@ class Calculator extends React.Component {
             <input
               type="button"
               value="0"
-              onClick={() => this.handleButtonClick('4')}
+              onClick={() => this.handleButtonClick('0')}
             />
             <input
               type="button"
               value="1"
-              onClick={() => this.handleButtonClick('5')}
+              onClick={() => this.handleButtonClick('1')}
             />
             <input
               type="button"
